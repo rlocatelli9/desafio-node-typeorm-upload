@@ -19,6 +19,9 @@ class Category {
 
   @UpdateDateColumn()
   updated_at: Date;
+
+  @UpdateDateColumn()
+  cancelled_at: Date;
 }
 
 export default Category;
